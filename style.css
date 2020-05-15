@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+:root {
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 3em;
+  }
+
+  body {
+    display: block;
+    margin: auto auto;
+    text-align: center;
+  }
+
+  button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+  }
+
+  .modify-buttons {
+    padding: -15em;
+    margin: 3em;
+    height: 40%;
+    margin-top: 11em;
+  }
+
+  #more-break {
+    margin-left: 3.75em;
+    margin-right: 3.75em;
+  }
+
+  #less-break {
+    margin-left: 3.75em;
+    margin-right: 3.7em;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #modify-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .change-stuff {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+  }
+ 
+  .modify {
+    display: flex;
+    flex-direction: row;
+    margin-top: -3em;
+  }
+
+  .modify-time-text {
+    font-size: 2em;
+  }
+
+  #time {
+    font-size: 4em;
+  }
+
+  #timer {
+    margin-top: -6em;
+  }
+
+  #function-button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .function-buttons {
+    padding: -15em;
+    margin: 15em;
+    height: 40%;
+    margin-top: -15em;
+    margin-bottom: -3em;
+  }
+
+  button:hover {
+    opacity: 0.4;
+    transform: scale(0.95);
+    cursor: pointer;
+  }
